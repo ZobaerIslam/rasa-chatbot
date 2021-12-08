@@ -11,9 +11,11 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
+
 entities:
-- p_count
-- service
+  - service
+  - p_count
+
 responses:
   utter_greet:
   - text: Hey! How are you?

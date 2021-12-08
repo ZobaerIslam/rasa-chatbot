@@ -83,6 +83,8 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-- intent: order
+
+- intent: entity_extraction
   examples: |
-    - i want to book a [bus](service) ticket for [3](p_count) people.
+    - I want to book a [flight](service) for [3](p_count) people
+    - book a [flight](service) for [9](p_count) people

@@ -8,6 +8,7 @@ language: "en"  # your two-letter language code
 
 pipeline:
   - name: SpacyNLP
+    model: "en_core_web_md"
   - name: SpacyTokenizer
   - name: SpacyFeaturizer
   - name: RegexFeaturizer
@@ -23,6 +24,9 @@ pipeline:
   - name: ResponseSelector
     epochs: 100
 
+entities:
+  - service
+  - p_count
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
