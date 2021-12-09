@@ -1,0 +1,11 @@
+USER: Hi!
+BOT : Hey! How are you? How can i help you sir?
+
+USER: I want to order a pizza
+BOT :  Yes Sir, We have  Greek pizza, and New Youk-style pizza available in all different sizes i.e samll, medium, large.
+
+USER: I want 2 small greek pizza.
+BOT : Ok Great. Your order is 2 Greek pizzza in small size. Can you please confirm your order?
+
+USER: Yes please make it fast.
+BOT : Sure!! We delivering your order ASAP. have a nice day :)
