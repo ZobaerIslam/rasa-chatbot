@@ -18,13 +18,13 @@ nlu:
     - hii
 
 # Pizza request
-- intent: requst_init
+- intent: request_init
   examples: |
-  - I want to order a pizza
-  - I want pizza
-  - can you order a pizza for me
-  - pizza pls
-  - pizza
+    - I want to order a pizza
+    - I want pizza
+    - can you order a pizza for me
+    - pizza pls
+    - pizza
 
 # Pizza order
 - intent: order_pizza
@@ -41,3 +41,10 @@ nlu:
     - Yes make this order
     - yes pls
     - please do it fast
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

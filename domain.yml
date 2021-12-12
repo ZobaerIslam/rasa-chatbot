@@ -16,24 +16,35 @@ entities:
 
 slots:
   pizza_size:
-    type: unfeaturized
+    type: text
     influence_conversation: false
+    mappings: 
+      - type: from_entity
+        entity: pizza_size
   pizza_type:
-    type: unfeaturized
+    type: text
     influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: pizza_type
   pizza_amount:
-    type: unfeaturize
+    type: text
     influence_conversation: false
-actions:
+    mappings:
+      - type: from_entity
+        entity: pizza_amount
 
-forms:
+actions:
+  - action_pizza_order_form
+# forms:
+#   pizza_order_form: {}
 
 responses:
   utter_greet:
-    -text: Hey! How are you? How can i help you sir?
+    - text: Hey! How are you? How can i help you sir?
   
   utter_pizza_menu:
-    -text: Yes Sir, We have  Greek pizza, and New Youk-style pizza available in all different sizes i.e samll, medium, large.
+    - text: Yes Sir, We have  Greek pizza, and New Youk-style pizza available in all different sizes i.e samll, medium, large.
 
   utter_confirm:
-    -text: Sure!! We delivering your order ASAP. have a nice day :)
+    - text: Sure!! We are delivering your order ASAP. have a nice day :)
